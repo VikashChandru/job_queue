@@ -1,0 +1,126 @@
+{
+  "jobs": [
+    {
+      "id": "debug-64d4c173",
+      "command": "echo debug-job",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T10:13:45.078508Z",
+      "updated_at": "2025-11-09T11:09:39.550750Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "debug-job\n",
+      "stderr": ""
+    },
+    {
+      "id": "debug_job_1",
+      "command": "echo hello from debug",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 2,
+      "created_at": "2025-11-09T10:13:45.103521Z",
+      "updated_at": "2025-11-09T11:09:39.678445Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "hello from debug\n",
+      "stderr": ""
+    },
+    {
+      "id": "debug-d07a27f1",
+      "command": "echo debug-job",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T10:18:04.564459Z",
+      "updated_at": "2025-11-09T11:09:39.779068Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "debug-job\n",
+      "stderr": ""
+    },
+    {
+      "id": "debug_job_1",
+      "command": "echo hello from debug",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 2,
+      "created_at": "2025-11-09T10:18:04.593249Z",
+      "updated_at": "2025-11-09T10:18:04.593249Z",
+      "error_message": null,
+      "next_retry_at": null
+    },
+    {
+      "id": "demo-1",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:09:38.174172Z",
+      "updated_at": "2025-11-09T11:09:40.900253Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "demo\n",
+      "stderr": ""
+    },
+    {
+      "id": "demo-2",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:09:38.177470Z",
+      "updated_at": "2025-11-09T11:09:41.426437Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "demo\n",
+      "stderr": ""
+    },
+    {
+      "id": "demo-3",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "completed",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:09:38.209072Z",
+      "updated_at": "2025-11-09T11:09:42.024112Z",
+      "error_message": null,
+      "next_retry_at": null,
+      "stdout": "demo\n",
+      "stderr": ""
+    },
+    {
+      "id": "demo-1",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:11:23.737868Z",
+      "updated_at": "2025-11-09T11:11:23.737868Z",
+      "error_message": null,
+      "next_retry_at": null
+    },
+    {
+      "id": "demo-2",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:11:23.742421Z",
+      "updated_at": "2025-11-09T11:11:23.742421Z",
+      "error_message": null,
+      "next_retry_at": null
+    },
+    {
+      "id": "demo-3",
+      "command": "ping -n 2 127.0.0.1 >nul & echo demo",
+      "state": "pending",
+      "attempts": 0,
+      "max_retries": 3,
+      "created_at": "2025-11-09T11:11:23.768104Z",
+      "updated_at": "2025-11-09T11:11:23.768104Z",
+      "error_message": null,
+      "next_retry_at": null
+    }
+  ]
+}
